@@ -14,6 +14,9 @@ import androidx.lifecycle.ViewModelProviders
 
 private const val TAG = "MainActivity"
 
+
+private const val TAG = "MainActivity"
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var trueButton: Button
