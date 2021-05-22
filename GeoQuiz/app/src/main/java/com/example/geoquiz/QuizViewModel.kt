@@ -13,9 +13,12 @@ private val questionBank = listOf(
     Question(R.string.question_asia, true)
 )
 
-private var currentIndex = 0;
+
 
 class QuizViewModel : ViewModel() {
+
+    var currentIndex = 0
+    var isCheater = false
 
     init {
         Log.d(TAG, "ViewModel instance created")
